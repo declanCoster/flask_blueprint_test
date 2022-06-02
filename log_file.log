@@ -1,0 +1,14 @@
+
+INFO: 2022-06-02 15:09:08,361 - App started
+INFO: 2022-06-02 15:09:08,363 -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO: 2022-06-02 15:09:19,425 - /all request made
+INFO: 2022-06-02 15:09:19,431 - 127.0.0.1 - - [02/Jun/2022 15:09:19] "GET /all HTTP/1.1" 200 -
+INFO: 2022-06-02 15:09:36,878 - /city request made
+INFO: 2022-06-02 15:09:36,883 - city request completed for Atlanta
+INFO: 2022-06-02 15:09:36,883 - 127.0.0.1 - - [02/Jun/2022 15:09:36] "GET /city HTTP/1.1" 200 -
+INFO: 2022-06-02 15:09:39,545 - /city request made
+DEBUG: 2022-06-02 15:09:39,551 - Portland is not in the system
+INFO: 2022-06-02 15:09:39,551 - 127.0.0.1 - - [02/Jun/2022 15:09:39] "[31m[1mGET /city HTTP/1.1[0m" 400 -
+INFO: 2022-06-02 15:09:46,710 - /update request made
+DEBUG: 2022-06-02 15:09:46,710 - the following keys are missing: temperature
+INFO: 2022-06-02 15:09:46,710 - 127.0.0.1 - - [02/Jun/2022 15:09:46] "[31m[1mPOST /update HTTP/1.1[0m" 400 -
